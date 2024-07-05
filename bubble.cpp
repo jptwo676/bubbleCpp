@@ -24,17 +24,7 @@ int main()
                 numbers[j] = numbers[j+1];
                 numbers[j+1] = temp;
             }
-            else
-            {
-                check++;
-            }
         }
-        if(check > 4)
-        {
-            std::cout << "Saindo pelo break, i = " << i << '\n';
-            break;
-        }
-        check = 0;
     }
 
     std::cout << "Array sorteado: " << '\n';
